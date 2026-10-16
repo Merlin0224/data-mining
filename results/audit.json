@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": [
+    "raw SHA-256",
+    "shuffled label alignment",
+    "holdout split IDs",
+    "prediction-to-label alignment",
+    "CV-only model selection",
+    "recomputed Accuracy and Macro-F1",
+    "confusion counts",
+    "per-fold score means",
+    "submission schema/order/hash",
+    "native final model prediction reproduction",
+    "shuffled template alignment",
+    "missing year and coordinate rules"
+  ],
+  "validation_accuracy": 0.8108585858585858,
+  "validation_macro_f1": 0.6818912185475186,
+  "all_label_counts": {
+    "functional": 32259,
+    "non functional": 22824,
+    "functional needs repair": 4317
+  },
+  "clean_feature_count": 35
+}

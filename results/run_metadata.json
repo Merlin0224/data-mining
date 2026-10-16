@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "train_rows": 47520,
+  "validation_rows": 11880,
+  "all_labeled_rows": 59400,
+  "test_rows": 14850,
+  "selected_model": "catboost_depth8",
+  "selection_rule": "highest training-only 3-fold CV accuracy",
+  "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "pandas": "2.3.3",
+  "numpy": "2.2.6",
+  "sklearn": "1.7.2",
+  "submission_sha256": "d1a9a1f19c7de8a63aeb39a8655e53091adab96b3a3c8588d38015f9e1c0302e",
+  "submission_template": "SubmissionFormat.csv",
+  "online_score": null,
+  "catboost": "1.2.8"
+}
